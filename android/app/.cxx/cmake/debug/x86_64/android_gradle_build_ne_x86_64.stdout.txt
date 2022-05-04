@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86_64'
+[1/2] Building CXX object CMakeFiles/ne.dir/home/naner/Documents/wda/cFlutterFFi-main/ios/na.cpp.o
+[2/2] Linking CXX shared library /home/naner/Documents/wda/cFlutterFFi-main/build/app/intermediates/cmake/debug/obj/x86_64/libne.so

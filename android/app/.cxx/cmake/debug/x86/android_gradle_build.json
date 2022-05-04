@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android19 --gcc-toolchain=/home/naner/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/naner/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dne_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/naner/Documents/wda/cFlutterFFi-main/android/CMakeLists.txt",
+    "/home/naner/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/naner/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ne-Debug-x86": {
+      "buildCommand": "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86\" ne",
+      "buildType": "debug",
+      "toolchain": "2545243763",
+      "abi": "x86",
+      "artifactName": "ne",
+      "files": [
+        {
+          "src": "/home/naner/Documents/wda/cFlutterFFi-main/ios/na.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/naner/Documents/wda/cFlutterFFi-main/build/app/intermediates/cmake/debug/obj/x86/libne.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2545243763": {
+      "cppCompilerExecutable": "/home/naner/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

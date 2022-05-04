@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/naner/Documents/wda/cFlutterFFi-main/android/CMakeLists.txt",
+    "/home/naner/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/naner/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ne-Debug-x86_64": {
+      "artifactName": "ne",
+      "buildCommand": "/home/naner/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/naner/Documents/wda/cFlutterFFi-main/android/app/.cxx/cmake/debug/x86_64\" ne",
+      "abi": "x86_64",
+      "output": "/home/naner/Documents/wda/cFlutterFFi-main/build/app/intermediates/cmake/debug/obj/x86_64/libne.so",
+      "runtimeFiles": []
+    }
+  }
+}
